@@ -1,10 +1,11 @@
 import { RecoilRoot } from 'recoil';
-import CharacterCounter from './components/CharacterCounter'
+import TodoList from './components/TodoList'
 
 export default function App() {
   return (
+    // 建立 Revoil 的根節點
     <RecoilRoot>
-      <CharacterCounter />
+      <TodoList />
     </RecoilRoot>
   );
 }
